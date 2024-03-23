@@ -1,0 +1,79 @@
+{
+  "name": "Englisch",
+  "levels": [
+    {
+      "name": "Level 1",
+      "data": [
+        {
+          "question": "seethe",
+          "answer": [
+            "summen",
+            "rollen",
+            "kochen"
+          ],
+          "hint": "hum, buzz, roll, boil"
+        },
+        {
+          "question": "chafe",
+          "answer": [
+            "galle",
+            "bund",
+            "lappen",
+            "ärger",
+            "scheuern",
+            "belästigen"
+          ],
+          "hint": "rag, annoy, gall, annoyance, fret, vexation"
+        },
+        {
+          "question": "guffaw",
+          "answer": [
+            "laut lachen",
+            "bauch lachen",
+            "lachen"
+          ],
+          "hint": "belly laugh, laugh loudly"
+        },
+        {
+          "question": "fretting",
+          "answer": [
+            "ärgern",
+            "bund",
+            "nackt",
+            "scheuern",
+            "aufregung"
+          ],
+          "hint": "chafe, fuss, niggle, fret"
+        },
+        {
+          "question": "vet",
+          "answer": [
+            "ex-dienste",
+            "veteran",
+            "tierarzt"
+          ],
+          "hint": "ex-serviceman, veterinary, veterinary surgeon, veterinarian, veteran"
+        },
+        {
+          "question": "arc",
+          "answer": [
+            "entladung",
+            "elektrischer bogen",
+            "bogen",
+            "elektrische entladung",
+            "funke"
+          ],
+          "hint": "electric arc, spark, discharge, electric discharge, arch, bow"
+        },
+        {
+          "question": "broth",
+          "answer": [
+            "aktie",
+            "brühe"
+          ],
+          "hint": "stock"
+        }
+      ]
+    }
+  ]
+}
