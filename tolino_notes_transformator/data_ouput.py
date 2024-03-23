@@ -5,7 +5,7 @@ to text files, and generate structured JSON files. Supports handling unmatched w
 """
 
 import json
-from globals import OUTPUT_TXT, OUTPUT_JSON, OUTPUT_UNMATCHED
+from tolino_notes_transformator.globals import OUTPUT_TXT, OUTPUT_JSON, OUTPUT_UNMATCHED
 
 
 def print_output(word, synonyms, translations):

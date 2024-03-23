@@ -22,14 +22,18 @@ This script is the main processing pipeline, utilizing functions from imported m
 """
 
 import sys
-from extract_words import extracted_words
-from translations import find_translations
-from utils import lemmatize_word, find_synonyms
-from data_ouput import generate_txt_file, generate_json_structure, generate_json_file
-from globals import GENERATE_JSON, EXPORT_TYPE
+from tolino_notes_transformator.extract_words import extracted_words
+from tolino_notes_transformator.translations import find_translations
+from tolino_notes_transformator.utils import lemmatize_word, find_synonyms
+from tolino_notes_transformator.data_ouput import (
+    generate_txt_file,
+    generate_json_structure,
+    generate_json_file,
+)
+from tolino_notes_transformator.globals import GENERATE_JSON, EXPORT_TYPE
 
 data = []
-data_length = len(extracted_words)
+DATA_LENGTH = len(extracted_words)
 PROCESSED_DATA = 1
 
 for word in extracted_words:
@@ -55,7 +59,7 @@ for word in extracted_words:
             )
         )
 
-    sys.stdout.write(f"\rWords processed: {PROCESSED_DATA}/{data_length}")
+    sys.stdout.write(f"\rWords processed: {PROCESSED_DATA}/{DATA_LENGTH}")
     sys.stdout.flush()
     PROCESSED_DATA += 1
 

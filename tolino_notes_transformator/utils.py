@@ -7,7 +7,7 @@ and includes functionality to specifically handle words ending in 'ing'.
 import nltk
 from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
-from globals import MAX_SYNONYMS
+from tolino_notes_transformator.globals import MAX_SYNONYMS
 
 nltk.download("wordnet", quiet=True)
 nltk.download("omw-1.4", quiet=True)

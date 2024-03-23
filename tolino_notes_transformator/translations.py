@@ -4,7 +4,7 @@ untranslatable words. This module encapsulates the translation process and error
 """
 
 from googletrans import Translator
-from data_ouput import generate_txt_unmatched
+from tolino_notes_transformator.data_ouput import generate_txt_unmatched
 
 
 def find_translations(words):

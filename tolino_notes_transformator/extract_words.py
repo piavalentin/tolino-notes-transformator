@@ -3,7 +3,7 @@ This module defines functionality for extracting words from files using regex pa
 """
 
 import re
-from globals import INPUT_FILE, PATTERN, MAX_WORDS
+from tolino_notes_transformator.globals import INPUT_FILE, PATTERN, MAX_WORDS
 
 
 def extract_words(file_path, pattern, max_words):
